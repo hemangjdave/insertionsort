@@ -6,9 +6,9 @@ public class Main {
 
     public static void main(String[] args) {
         InsertionSort sort = new InsertionSort();
-        int array[] = {82, 42, 23, 28, 92, 6, 52, 28, 88, 17};
+        int[] array = {82, 42, 23, 28, 92, 6, 52, 28, 88, 17};
 
-        int array2[] = {25 , 66 , 56 , 37 , 39 , 82 , 34 , 32 , 48 , 46};
+        int[] array2 = {25 , 66 , 56 , 37 , 39 , 82 , 34 , 32 , 48 , 46};
 
         sort.arrangeArrayInAscOrder(array);
 
@@ -18,5 +18,10 @@ public class Main {
         System.out.println(Arrays.toString(array));
         System.out.println(Arrays.toString(array2));
 
+
+        int[] array3 = {9 , 8 , 7 , 6 , 5 , 4 , 3 , 2 , 1};
+        sort.arrangeArrayInAscOrder(array3);
+
+        System.out.println(Arrays.toString(array3));
     }
 }
